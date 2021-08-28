@@ -11,6 +11,7 @@ import com.example.myapplication.domain.entity.MenuItemEntity
  */
 class MenuItemView : LinearLayout {
     private lateinit var binding: MenuitemViewBinding
+
     constructor(context: Context?) : super(context)
     constructor(context: Context?, attrs: AttributeSet?) : super(context, attrs)
     constructor(context: Context?, attrs: AttributeSet?, defStyleAttr: Int) : super(

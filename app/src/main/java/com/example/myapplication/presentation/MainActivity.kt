@@ -91,7 +91,8 @@ class MainActivity : AppCompatActivity() {
      * @param menuItems restaurant menuItems list
      * @return Boolean
      */
-    private fun isSearchQueryInMenuList(query: String, menuItems: ArrayList<MenuItemEntity>): Boolean {
+    private fun isSearchQueryInMenuList(query: String,
+                                        menuItems: ArrayList<MenuItemEntity>): Boolean {
         for (menu in menuItems) {
             if (menu.name.contains(query, ignoreCase = true)) {
                 return true
@@ -105,7 +106,8 @@ class MainActivity : AppCompatActivity() {
      * @param visibility2 View VISIBILITY
      */
     private fun setSearchResultViewsVisibility(visibility1: Int, visibility2: Int) {
-        if (binding.recyclerView.visibility == visibility1) binding.recyclerView.visibility = visibility2
+        if (binding.recyclerView.visibility == visibility1) binding.recyclerView.visibility =
+            visibility2
         if (binding.noResult.visibility == visibility2) binding.noResult.visibility = visibility1
     }
 }

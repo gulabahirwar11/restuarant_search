@@ -6,9 +6,9 @@ data class RestaurantEntity(
         val name: String,
         val cuisineType: String,
         val address: String,
-        val menuList: ArrayList<MenuItemEntity> ?= null
+        val menuList: ArrayList<MenuItemEntity>? = null
 )
 
 data class MenuItemEntity(
-        val name: String, val description : String
+        val name: String, val description: String
 )

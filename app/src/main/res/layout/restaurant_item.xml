@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+
     <data>
-        <variable name="restaurant" type="com.example.myapplication.domain.entity.RestaurantEntity"/>
+
+        <variable
+            name="restaurant"
+            type="com.example.myapplication.domain.entity.RestaurantEntity" />
     </data>
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -26,26 +30,26 @@
                 android:padding="@dimen/margin_16dp">
 
                 <TextView
-                    android:text="@{restaurant.name}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text="@{restaurant.name}"
                     android:textSize="@dimen/text_size_h1"
                     android:textStyle="bold"
                     tools:text="Name" />
 
                 <TextView
-                    android:text="@{`Cuisine type- `+restaurant.cuisineType}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_4dp"
+                    android:text="@{`Cuisine type- `+restaurant.cuisineType}"
                     android:textSize="@dimen/text_size_h1"
                     tools:text="Type" />
 
                 <TextView
-                    android:text="@{`Address- `+restaurant.address}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_4dp"
+                    android:text="@{`Address- `+restaurant.address}"
                     android:textSize="@dimen/text_size_h1"
                     tools:text="Address" />
 

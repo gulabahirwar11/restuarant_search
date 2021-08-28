@@ -16,8 +16,9 @@ object JsonEntityHelper {
      * @param menus : hashmap with key as restaurantId and value list of menuItems entity
      * @return List of Restaurant entity
      */
-    fun getRestaurants(jsonString: String?,
-                       menus: HashMap<String, ArrayList<MenuItemEntity>>): ArrayList<RestaurantEntity> {
+    fun getRestaurants(
+        jsonString: String?,
+        menus: HashMap<String, ArrayList<MenuItemEntity>>): ArrayList<RestaurantEntity> {
         if (jsonString == null) return ArrayList()
 
         val restaurants = ArrayList<RestaurantEntity>()
@@ -46,7 +47,7 @@ object JsonEntityHelper {
      * @param jsonString Json String
      * @return Hashmap with restaurantId as key and value list of menuItems entity
      */
-    fun getMenus (jsonString: String?): HashMap<String, ArrayList<MenuItemEntity>> {
+    fun getMenus(jsonString: String?): HashMap<String, ArrayList<MenuItemEntity>> {
         if (jsonString == null) return HashMap()
 
         val hashmap = HashMap<String, ArrayList<MenuItemEntity>>()
