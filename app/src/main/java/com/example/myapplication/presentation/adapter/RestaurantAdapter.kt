@@ -1,4 +1,4 @@
-package com.example.myapplication.adapter
+package com.example.myapplication.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,8 +7,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
 import com.example.myapplication.databinding.RestaurantItemBinding
-import com.example.myapplication.entity.RestaurantEntity
-import com.example.myapplication.view.MenuItemView
+import com.example.myapplication.domain.entity.RestaurantEntity
+import com.example.myapplication.presentation.view.MenuItemView
 
 class RestaurantAdapter : RecyclerView.Adapter<RestaurantAdapter.ViewHolder>() {
     private var restaurants: ArrayList<RestaurantEntity>? = null

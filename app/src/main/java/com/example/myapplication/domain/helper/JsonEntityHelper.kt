@@ -1,8 +1,8 @@
-package com.example.myapplication.helper
+package com.example.myapplication.domain.helper
 
 import android.util.Log
-import com.example.myapplication.entity.MenuItemEntity
-import com.example.myapplication.entity.RestaurantEntity
+import com.example.myapplication.domain.entity.MenuItemEntity
+import com.example.myapplication.domain.entity.RestaurantEntity
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject

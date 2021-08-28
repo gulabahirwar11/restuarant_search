@@ -1,4 +1,4 @@
-package com.example.myapplication.util
+package com.example.myapplication.domain.util
 
 import android.content.Context
 import java.io.IOException

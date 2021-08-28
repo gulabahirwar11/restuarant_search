@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
     <data>
-        <variable name="menuItem" type="com.example.myapplication.entity.MenuItemEntity"/>
+        <variable name="menuItem" type="com.example.myapplication.domain.entity.MenuItemEntity"/>
     </data>
-    <com.example.myapplication.view.MenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    <com.example.myapplication.presentation.view.MenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,5 +25,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="description" />
-    </com.example.myapplication.view.MenuItemView>
+    </com.example.myapplication.presentation.view.MenuItemView>
 </layout>

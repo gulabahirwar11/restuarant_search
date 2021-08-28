@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.presentation
 
 import android.os.Bundle
 import android.view.Menu
@@ -7,12 +7,13 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.databinding.DataBindingUtil
-import com.example.myapplication.adapter.RestaurantAdapter
+import com.example.myapplication.R
+import com.example.myapplication.presentation.adapter.RestaurantAdapter
 import com.example.myapplication.databinding.ActivityMainBinding
-import com.example.myapplication.entity.MenuItemEntity
-import com.example.myapplication.entity.RestaurantEntity
-import com.example.myapplication.helper.JsonEntityHelper
-import com.example.myapplication.util.FileUtil.getJsonFromAssets
+import com.example.myapplication.domain.entity.MenuItemEntity
+import com.example.myapplication.domain.entity.RestaurantEntity
+import com.example.myapplication.domain.helper.JsonEntityHelper
+import com.example.myapplication.domain.util.FileUtil.getJsonFromAssets
 import java.util.stream.Collectors
 
 

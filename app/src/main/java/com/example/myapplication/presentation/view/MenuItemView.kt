@@ -1,10 +1,10 @@
-package com.example.myapplication.view
+package com.example.myapplication.presentation.view
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
 import com.example.myapplication.databinding.MenuitemViewBinding
-import com.example.myapplication.entity.MenuItemEntity
+import com.example.myapplication.domain.entity.MenuItemEntity
 
 /** MenuItemView provide Custom View
  *  MenuItemView contain two child textViews title, description

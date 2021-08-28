@@ -1,4 +1,4 @@
-package com.example.myapplication.entity
+package com.example.myapplication.domain.entity
 
 
 data class RestaurantEntity(
