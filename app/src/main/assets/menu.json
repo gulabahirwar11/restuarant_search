@@ -1,0 +1,246 @@
+{
+  "menus": [
+    {
+      "restaurantId": 1,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "3 Chicken Wings",
+              "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+              "price": "250.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Chicken Livers and Portuguese Roll",
+              "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+              "price": "250.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "restaurantId": 2,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "Egg Cury",
+              "description": "Egg Cury Dhaba Style Anda Masala",
+              "price": "260.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Boiled Egg",
+              "description": "Boiled Egg with onion",
+              "price": "260.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "restaurantId": 3,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "Roti",
+              "description": "Taba Roti",
+              "price": "250.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Dosa",
+              "description": "Dosa with coconut chatani",
+              "price": "270.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "restaurantId": 4,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "Momos",
+              "description": "Hots Momos",
+              "price": "250.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Samosa",
+              "description": "Hot Samosa",
+              "price": "150.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "restaurantId": 5,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "Biryani",
+              "description": "Biryani Egg masala curryPrep",
+              "price": "250.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Chicken Livers and Portuguese Roll",
+              "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+              "price": "250.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "restaurantId": 6,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "Chicken Wings",
+              "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+              "price": "250.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Biryani",
+              "description": "Biriyani onion Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+              "price": "250.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "restaurantId": 7,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "Matar Paneer",
+              "description": "Paneer, Spicy and Juicy. Original or Peri-Crusted",
+              "price": "250.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Chilly Paneer",
+              "description": "Chilly Paneer Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+              "price": "250.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "restaurantId": 8,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "Pizza",
+              "description": "Pizza, Spicy and Juicy. Original or Peri-Crusted",
+              "price": "250.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Chicken Pizza",
+              "description": "Pizza Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+              "price": "250.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "restaurantId": 9,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Appeteasers",
+          "menu-items": [
+            {
+              "id": "94298",
+              "name": "Tea",
+              "description": "Mashala Tea",
+              "price": "250.00",
+              "images": [
+              ]
+            },
+            {
+              "id": "94301",
+              "name": "Ice creme",
+              "description": "Ice creme sweetened frozen",
+              "price": "250.00",
+              "images": [
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
